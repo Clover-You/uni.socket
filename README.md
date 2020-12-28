@@ -21,7 +21,7 @@ const socket = new UniSocket({
 | reconnection   | 发送错误时是否进行重连，默认`true`                           |
 | buffer         | 是否建立缓存池，当发送消息失败时会吧消息保存到缓存池等待下次发送 |
 | heartRate      | 系统自动与将程序心跳发送至服务端，默认60000ms                |
-| heartRateType  | 设置心跳触发的事件，默认触发`HEARTBARE`事件                  |
+| heartRateType  | 设置心跳触发的事件，默认触发`HEARTBEAT`事件                  |
 | autoEmitBuffer | 是否自动发送缓存池中的数据，默认`false`                      |
 
 
@@ -174,7 +174,7 @@ socket.emit('event', {msg: "hello world"});
 
 ### 关于心跳
 
-uni.socket需向服务器定时发送一次心跳，其触发的事件为`HEARTBARE`，默认心率为60000ms，服务器可根据该事件进行处理，可修改配置进行修改触发事件`heartRateType`：
+uni.socket需向服务器定时发送一次心跳，其触发的事件为`HEARTBEAT`，默认心率为60000ms，服务器可根据该事件进行处理，可修改配置进行修改触发事件`heartRateType`：
 
 ```javascript
 new UniSocket({
