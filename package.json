@@ -1,0 +1,22 @@
+{
+  "name": "ctong-uni.socket",
+  "version": "1.0.3",
+  "description": "uni.socket plug-in is developed based on uniapp...",
+  "main": "lib/uni.socket.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouChuantong/uni.socket.git"
+  },
+  "author": "UpYou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YouChuantong/uni.socket/issues"
+  },
+  "homepage": "https://github.com/YouChuantong/uni.socket#readme"
+}
