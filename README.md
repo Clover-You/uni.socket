@@ -203,4 +203,9 @@ new UniSocket({
 
 
 
+# 使用demo
 
+若你需要查看示例，你需要启动client下的uniapp项目。项目主在main.js中使用uni.socket连接服务器，使用示例在`src/pages/index/index.vue`中
+
+
+你如果没有测试服务器代码，你也可以使用node启动server文件夹下的app.js来启动一个WebSocket服务器，它监听了1200端口
