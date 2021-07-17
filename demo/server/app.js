@@ -42,6 +42,7 @@ wss.on("connection", function (ws) {
     }
 
     if (data['type'] != void 0) {
+      console.log('有靓仔来消息了: ', data);
         /// 根据type匹配驱动
         events[data.type](data);
     }
