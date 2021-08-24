@@ -23,31 +23,23 @@ export default {
     };
   },
   onLoad() {
-    /// 注册一个reply驱动
-    this.$socket.on("reply-success-hello", this.reply);
-    /// 监听脏值
-    this.$socket.on("**", function(dirty) {
-      console.log("**dirty: ", dirty);
-    });
+    this.$socket.on('reply-success-hello', this.reply);
   },
   onUnload() {
-    /// 页面被卸载时注销reply驱动
-    this.$socket.off("reply-success-hello", this.reply);
+    this.$socket.off('reply-success-hello', this.reply)
   },
   methods: {
-    /// 处理服务端返回的数据
     reply(data) {
-      this.list.push(data);
-      this.msg = '';
-      console.log(data);
+      this.list.push(data)
+      console.log('reply: ', data);
     },
     /// 发送数据到服务端
     sendData() {
-      this.$socket.emit("success-hello", { msg: this.msg });
+      this.$socket.emit('hello', {msg: this.msg})
     },
     /// 通知服务端发送脏数据
     sendDirty() {
-      this.$socket.emit("dirty-data");
+      this.$socket.emit('dirty-data', {})
     },
   },
 };

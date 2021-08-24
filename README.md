@@ -198,7 +198,7 @@ new UniSocket({
 | connectioned      | 连接成功时触发                                | 无                           |
 | \*                | 服务器给客户端发送任何消息时触发              | 客户端消息                   |
 | \*\*              | 后端返回的数据格式违背与UniSocket的约定时触发 | 客户端消息                   |
-| HEARTBARE         | 每次向服务端发送一次心跳时触发                | uni.socket给你返回的垃圾消息 |
+| HEARTBEAT         | 每次向服务端发送一次心跳时触发                | uni.socket给你返回的垃圾消息 |
 
 
 

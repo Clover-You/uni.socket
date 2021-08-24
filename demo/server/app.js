@@ -62,7 +62,7 @@ wss.on("connection", function (ws) {
 
   /// 驱动集
   const events = {
-    "success-hello": function (data) {
+    "hello": function (data) {
       send('reply-success-hello', data.data)
     },
     "dirty-data": function(data) {
