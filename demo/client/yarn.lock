@@ -3907,6 +3907,13 @@ cssstyle@^2.0.0:
   dependencies:
     cssom "~0.3.6"
 
+ctong-uni.socket@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ctong-uni.socket/-/ctong-uni.socket-1.1.2.tgz#8cc947049bc3b3094c0a74d90c0bc6950afeb3ce"
+  integrity sha512-mTL+WCwuCjnuKE1g5NIVOrt7ihbhu8qVYnpuAbbQj+xQPUK5tNgOW6vbMF1+uMLxP6ZpGFtGRQF53VIucKrLEA==
+  dependencies:
+    ws "^7.4.5"
+
 cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
@@ -10667,6 +10674,11 @@ ws@^7.0.0, ws@^7.2.3, ws@~7.4.2:
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.5.tgz#a484dd851e9beb6fdb420027e3885e8ce48986c1"
   integrity sha512-xzyu3hFvomRfXKH8vOFMU3OguG6oOvhXMo3xsGy3xWExqaM2dxBbVxuD99O7m3ZUFMvvscsZDqxfgMaRr/Nr1g==
+
+ws@^7.4.5:
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
+  integrity sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==
 
 x-domhandler@^2.4.2:
   version "2.4.2"

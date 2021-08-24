@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App";
-import UniSocket from "../../../lib/uni.socket";
+import UniSocket from 'ctong-uni.socket'
 
 const socket = new UniSocket({
   url: 'ws://192.168.21.133:1200',
